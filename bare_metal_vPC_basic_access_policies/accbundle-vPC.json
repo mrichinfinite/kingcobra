@@ -1,0 +1,220 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "infraAccBndlGrp": {
+                "attributes": {
+                    "annotation": "",
+                    "descr": "",
+                    "dn": "uni/infra/funcprof/accbundle-vPC",
+                    "lagT": "node",
+                    "name": "vPC",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "userdom": ""
+                },
+                "children": [
+                    {
+                        "infraRsStpIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnStpIfPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsQosLlfcIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnQosLlfcIfPolName": "",
+                                "userdom": "all"
+                            }
+                        }
+                    },
+                    {
+                        "infraRsQosIngressDppIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnQosDppPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsStormctrlIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnStormctrlIfPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsQosEgressDppIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnQosDppPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsMonIfInfraPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnMonInfraPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsMcpIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnMcpIfPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsMacsecIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnMacsecIfPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsQosSdIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnQosSdIfPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsAttEntP": {
+                            "attributes": {
+                                "annotation": "",
+                                "tDn": "uni/infra/attentp-AEP",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsCdpIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnCdpIfPolName": "CDP_Enabled",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsL2IfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnL2IfPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsQosDppIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnQosDppPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsCoppIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnCoppIfPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsLldpIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnLldpIfPolName": "LLDP_Enabled",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsFcIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnFcIfPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsQosPfcIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnQosPfcIfPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsHIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnFabricHIfPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsL2PortSecurityPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnL2PortSecurityPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsL2PortAuthPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnL2PortAuthPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsLacpPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnLacpLagPolName": "LACP_Active",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraRsLinkFlapPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnFabricLinkFlapPolName": "",
+                                "userdom": ""
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

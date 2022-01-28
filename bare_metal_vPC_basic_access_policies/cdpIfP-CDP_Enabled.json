@@ -1,0 +1,19 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "cdpIfPol": {
+                "attributes": {
+                    "adminSt": "enabled",
+                    "annotation": "",
+                    "descr": "",
+                    "dn": "uni/infra/cdpIfP-CDP_Enabled",
+                    "name": "CDP_Enabled",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": ""
+                }
+            }
+        }
+    ]
+}
