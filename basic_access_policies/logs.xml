@@ -36,7 +36,7 @@
         </infraLeafS>
     </infraNodeP>
     <infraAccPortP annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
-        <infraHPortS annotation='' descr='' name='Eth_1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+        <infraHPortS annotation='' descr='' name='Eth1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
             <infraRsAccBaseGrp annotation='' fexId='101' status='created,modified' tDn='uni/infra/funcprof/accbundle-vPC'></infraRsAccBaseGrp>
             <infraPortBlk annotation='' descr='' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='2'></infraPortBlk>
         </infraHPortS>
@@ -49,7 +49,7 @@
     </fvnsVlanInstP>
 </infraInfra>
 <infraAccPortP annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
-    <infraHPortS annotation='' descr='' name='Eth_1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+    <infraHPortS annotation='' descr='' name='Eth1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
         <infraRsAccBaseGrp annotation='' fexId='101' status='created,modified' tDn='uni/infra/funcprof/accbundle-vPC'></infraRsAccBaseGrp>
         <infraPortBlk annotation='' descr='' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='2'></infraPortBlk>
     </infraHPortS>
@@ -78,13 +78,13 @@
                 <infraRsHIfPol annotation='' status='created,modified' tnFabricHIfPolName=''></infraRsHIfPol>
                 <infraRsL2PortSecurityPol annotation='' status='created,modified' tnL2PortSecurityPolName=''></infraRsL2PortSecurityPol>
                 <infraRsL2PortAuthPol annotation='' status='created,modified' tnL2PortAuthPolName=''></infraRsL2PortAuthPol>
-                <infraRsLacpPol annotation='' status='created,modified' tnLacpLagPolName='LACP_ACTIVE'></infraRsLacpPol>
+                <infraRsLacpPol annotation='' status='created,modified' tnLacpLagPolName='LACP_Active'></infraRsLacpPol>
                 <infraRsLinkFlapPol annotation='' status='created,modified' tnFabricLinkFlapPolName=''></infraRsLinkFlapPol>
             </infraAccBndlGrp>
         </infraFuncP>
         <cdpIfPol adminSt='disabled' annotation='' descr='' name='CDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></cdpIfPol>
         <lldpIfPol adminRxSt='enabled' adminTxSt='enabled' annotation='' descr='' name='LLDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lldpIfPol>
-        <lacpLagPol annotation='' ctrl='fast-sel-hot-stdby,graceful-conv,susp-individual' descr='' maxLinks='16' minLinks='1' mode='active' name='LACP_ACTIVE' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lacpLagPol>
+        <lacpLagPol annotation='' ctrl='fast-sel-hot-stdby,graceful-conv,susp-individual' descr='' maxLinks='16' minLinks='1' mode='active' name='LACP_Active' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lacpLagPol>
         <infraNodeP annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
             <infraRsAccPortP annotation='' status='created,modified' tDn='uni/infra/accportprof-Leaf101_102'></infraRsAccPortP>
             <infraLeafS annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
@@ -92,7 +92,7 @@
             </infraLeafS>
         </infraNodeP>
         <infraAccPortP annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
-            <infraHPortS annotation='' descr='' name='Eth_1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+            <infraHPortS annotation='' descr='' name='Eth1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
                 <infraRsAccBaseGrp annotation='' fexId='101' status='created,modified' tDn='uni/infra/funcprof/accbundle-vPC'></infraRsAccBaseGrp>
                 <infraPortBlk annotation='' descr='' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='2'></infraPortBlk>
             </infraHPortS>
@@ -148,7 +148,7 @@
         <infraRsHIfPol annotation='' status='created,modified' tnFabricHIfPolName=''></infraRsHIfPol>
         <infraRsL2PortSecurityPol annotation='' status='created,modified' tnL2PortSecurityPolName=''></infraRsL2PortSecurityPol>
         <infraRsL2PortAuthPol annotation='' status='created,modified' tnL2PortAuthPolName=''></infraRsL2PortAuthPol>
-        <infraRsLacpPol annotation='' status='created,modified' tnLacpLagPolName='LACP_ACTIVE'></infraRsLacpPol>
+        <infraRsLacpPol annotation='' status='created,modified' tnLacpLagPolName='LACP_Active'></infraRsLacpPol>
         <infraRsLinkFlapPol annotation='' status='created,modified' tnFabricLinkFlapPolName=''></infraRsLinkFlapPol>
     </infraAccBndlGrp>
 </infraFuncP>
