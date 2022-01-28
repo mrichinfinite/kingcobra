@@ -199,7 +199,7 @@
                         "infraRsLacpPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnLacpLagPolName": "LACP_ACTIVE",
+                                "tnLacpLagPolName": "LACP_Active",
                                 "userdom": ""
                             }
                         }
