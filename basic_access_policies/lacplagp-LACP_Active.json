@@ -7,11 +7,11 @@
                     "annotation": "",
                     "ctrl": "fast-sel-hot-stdby,graceful-conv,susp-individual",
                     "descr": "",
-                    "dn": "uni/infra/lacplagp-LACP_ACTIVE",
+                    "dn": "uni/infra/lacplagp-LACP_Active",
                     "maxLinks": "16",
                     "minLinks": "1",
                     "mode": "active",
-                    "name": "LACP_ACTIVE",
+                    "name": "LACP_Active",
                     "nameAlias": "",
                     "ownerKey": "",
                     "ownerTag": ""
