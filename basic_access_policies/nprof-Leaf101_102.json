@@ -1,0 +1,59 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "infraNodeP": {
+                "attributes": {
+                    "annotation": "",
+                    "descr": "",
+                    "dn": "uni/infra/nprof-Leaf101_102",
+                    "name": "Leaf101_102",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "userdom": ""
+                },
+                "children": [
+                    {
+                        "infraRsAccPortP": {
+                            "attributes": {
+                                "annotation": "",
+                                "tDn": "uni/infra/accportprof-Leaf101_102",
+                                "userdom": ""
+                            }
+                        }
+                    },
+                    {
+                        "infraLeafS": {
+                            "attributes": {
+                                "annotation": "",
+                                "descr": "",
+                                "name": "Leaf101_102",
+                                "nameAlias": "",
+                                "ownerKey": "",
+                                "ownerTag": "",
+                                "type": "range",
+                                "userdom": ""
+                            },
+                            "children": [
+                                {
+                                    "infraNodeBlk": {
+                                        "attributes": {
+                                            "annotation": "",
+                                            "descr": "",
+                                            "from_": "101",
+                                            "name": "ff16139dc666a0f2",
+                                            "nameAlias": "",
+                                            "to_": "102",
+                                            "userdom": ""
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
