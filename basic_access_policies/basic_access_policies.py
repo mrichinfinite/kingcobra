@@ -89,7 +89,7 @@ fvnsEncapBlk = cobra.model.fvns.EncapBlk(fvnsVlanInstP, allocMode='static', anno
 
 # vPC domain
 fabricProtPol = cobra.model.fabric.ProtPol(fabricInst, annotation='', descr='', name='default', nameAlias='', ownerKey='', ownerTag='', pairT='explicit')
-fabricExplicitGEp = cobra.model.fabric.ExplicitGEp(fabricProtPol, annotation='', id='1', name='101-102-VPG')
+fabricExplicitGEp = cobra.model.fabric.ExplicitGEp(fabricProtPol, annotation='', id='1', name='Leaf101_102_VPG')
 fabricRsVpcInstPol = cobra.model.fabric.RsVpcInstPol(fabricExplicitGEp, annotation='', tnVpcInstPolName='')
 fabricNodePEp = cobra.model.fabric.NodePEp(fabricExplicitGEp, annotation='', descr='', id='102', name='', nameAlias='', podId='1')
 fabricNodePEp2 = cobra.model.fabric.NodePEp(fabricExplicitGEp, annotation='', descr='', id='101', name='', nameAlias='', podId='1')
