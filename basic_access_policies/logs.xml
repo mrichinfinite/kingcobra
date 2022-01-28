@@ -22,13 +22,13 @@
             <infraRsHIfPol annotation='' status='created,modified' tnFabricHIfPolName=''></infraRsHIfPol>
             <infraRsL2PortSecurityPol annotation='' status='created,modified' tnL2PortSecurityPolName=''></infraRsL2PortSecurityPol>
             <infraRsL2PortAuthPol annotation='' status='created,modified' tnL2PortAuthPolName=''></infraRsL2PortAuthPol>
-            <infraRsLacpPol annotation='' status='created,modified' tnLacpLagPolName='LACP_ACTIVE'></infraRsLacpPol>
+            <infraRsLacpPol annotation='' status='created,modified' tnLacpLagPolName='LACP_Active'></infraRsLacpPol>
             <infraRsLinkFlapPol annotation='' status='created,modified' tnFabricLinkFlapPolName=''></infraRsLinkFlapPol>
         </infraAccBndlGrp>
     </infraFuncP>
-    <cdpIfPol adminSt='disabled' annotation='' descr='' name='CDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></cdpIfPol>
+    <cdpIfPol adminSt='enabled' annotation='' descr='' name='CDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></cdpIfPol>
     <lldpIfPol adminRxSt='enabled' adminTxSt='enabled' annotation='' descr='' name='LLDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lldpIfPol>
-    <lacpLagPol annotation='' ctrl='fast-sel-hot-stdby,graceful-conv,susp-individual' descr='' maxLinks='16' minLinks='1' mode='active' name='LACP_ACTIVE' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lacpLagPol>
+    <lacpLagPol annotation='' ctrl='fast-sel-hot-stdby,graceful-conv,susp-individual' descr='' maxLinks='16' minLinks='1' mode='active' name='LACP_Active' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lacpLagPol>
     <infraNodeP annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
         <infraRsAccPortP annotation='' status='created,modified' tDn='uni/infra/accportprof-Leaf101_102'></infraRsAccPortP>
         <infraLeafS annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
