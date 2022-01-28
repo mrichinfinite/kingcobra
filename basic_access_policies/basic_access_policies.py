@@ -31,7 +31,7 @@ fabricInst = cobra.model.fabric.Inst(polUni)
 # Interface policies
 cdpIfPol = cobra.model.cdp.IfPol(infraInfra, adminSt='enabled', annotation='', descr='', name='CDP_Enabled', nameAlias='', ownerKey='', ownerTag='')
 lldpIfPol = cobra.model.lldp.IfPol(infraInfra, adminRxSt='enabled', adminTxSt='enabled', annotation='', descr='', name='LLDP_Enabled', nameAlias='', ownerKey='', ownerTag='')
-lacpLagPol = cobra.model.lacp.LagPol(infraInfra, annotation='', ctrl='fast-sel-hot-stdby,graceful-conv,susp-individual', descr='', maxLinks='16', minLinks='1', mode='active', name='LACP_ACTIVE', nameAlias='', ownerKey='', ownerTag='')
+lacpLagPol = cobra.model.lacp.LagPol(infraInfra, annotation='', ctrl='fast-sel-hot-stdby,graceful-conv,susp-individual', descr='', maxLinks='16', minLinks='1', mode='active', name='LACP_Active', nameAlias='', ownerKey='', ownerTag='')
 
 # Switch profile
 infraNodeP = cobra.model.infra.NodeP(infraInfra, annotation='', descr='', name='Leaf101_102', nameAlias='', ownerKey='', ownerTag='')
@@ -41,12 +41,12 @@ infraNodeBlk = cobra.model.infra.NodeBlk(infraLeafS, annotation='', descr='', fr
 
 # Interface profile
 infraAccPortP = cobra.model.infra.AccPortP(infraInfra, annotation='', descr='', name='Leaf101_102', nameAlias='', ownerKey='', ownerTag='')
-infraHPortS = cobra.model.infra.HPortS(infraAccPortP, annotation='', descr='', name='Eth_1_1-2', nameAlias='', ownerKey='', ownerTag='', type='range')
+infraHPortS = cobra.model.infra.HPortS(infraAccPortP, annotation='', descr='', name='Eth1_1-2', nameAlias='', ownerKey='', ownerTag='', type='range')
 infraRsAccBaseGrp = cobra.model.infra.RsAccBaseGrp(infraHPortS, annotation='', fexId='101', tDn='uni/infra/funcprof/accbundle-vPC')
 infraPortBlk = cobra.model.infra.PortBlk(infraHPortS, annotation='', descr='', fromCard='1', fromPort='1', name='block2', nameAlias='', toCard='1', toPort='2')
 
 # Interface selector
-infraHPortS = cobra.model.infra.HPortS(infraAccPortP, annotation='', descr='', name='Eth_1_1-2', nameAlias='', ownerKey='', ownerTag='', type='range')
+infraHPortS = cobra.model.infra.HPortS(infraAccPortP, annotation='', descr='', name='Eth1_1-2', nameAlias='', ownerKey='', ownerTag='', type='range')
 infraRsAccBaseGrp = cobra.model.infra.RsAccBaseGrp(infraHPortS, annotation='', fexId='101', tDn='uni/infra/funcprof/accbundle-vPC')
 infraPortBlk = cobra.model.infra.PortBlk(infraHPortS, annotation='', descr='', fromCard='1', fromPort='1', name='block2', nameAlias='', toCard='1', toPort='2')
 
@@ -72,7 +72,7 @@ infraRsQosPfcIfPol = cobra.model.infra.RsQosPfcIfPol(infraAccBndlGrp, annotation
 infraRsHIfPol = cobra.model.infra.RsHIfPol(infraAccBndlGrp, annotation='', tnFabricHIfPolName='')
 infraRsL2PortSecurityPol = cobra.model.infra.RsL2PortSecurityPol(infraAccBndlGrp, annotation='', tnL2PortSecurityPolName='')
 infraRsL2PortAuthPol = cobra.model.infra.RsL2PortAuthPol(infraAccBndlGrp, annotation='', tnL2PortAuthPolName='')
-infraRsLacpPol = cobra.model.infra.RsLacpPol(infraAccBndlGrp, annotation='', tnLacpLagPolName='LACP_ACTIVE')
+infraRsLacpPol = cobra.model.infra.RsLacpPol(infraAccBndlGrp, annotation='', tnLacpLagPolName='LACP_Active')
 infraRsLinkFlapPol = cobra.model.infra.RsLinkFlapPol(infraAccBndlGrp, annotation='', tnFabricLinkFlapPolName='')
 
 # AEP
