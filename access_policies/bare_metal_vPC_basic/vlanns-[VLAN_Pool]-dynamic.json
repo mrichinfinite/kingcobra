@@ -25,7 +25,7 @@
                                 "name": "",
                                 "nameAlias": "",
                                 "role": "external",
-                                "to": "vlan-4094_",
+                                "to": "vlan-4094",
                                 "userdom": ""
                             }
                         }
