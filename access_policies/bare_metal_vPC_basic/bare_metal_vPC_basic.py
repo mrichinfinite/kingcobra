@@ -5,12 +5,7 @@ import cobra.mit.session
 import cobra.model.infra
 import cobra.model.pol
 import cobra.model.phys
-import cobra.model.l3ext
 import cobra.model.fvns
-import cobra.model.fv
-import cobra.model.ospf
-import cobra.model.vns
-import cobra.model.vz
 import cobra.model.cdp
 import cobra.model.lldp
 import cobra.model.lacp
@@ -87,7 +82,7 @@ infraRsVlanNs = cobra.model.infra.RsVlanNs(physDomP, annotation='', tDn='uni/inf
 fvnsVlanInstP = cobra.model.fvns.VlanInstP(infraInfra, allocMode='dynamic', annotation='', descr='', name='VLAN_Pool', nameAlias='', ownerKey='', ownerTag='')
 fvnsEncapBlk = cobra.model.fvns.EncapBlk(fvnsVlanInstP, allocMode='static', annotation='', descr='', from_='vlan-1', name='', nameAlias='', role='external', to='vlan-4094')
 
-# vPC domain
+# vPC explicit protection group (vPC domain)
 fabricProtPol = cobra.model.fabric.ProtPol(fabricInst, annotation='', descr='', name='default', nameAlias='', ownerKey='', ownerTag='', pairT='explicit')
 fabricExplicitGEp = cobra.model.fabric.ExplicitGEp(fabricProtPol, annotation='', id='1', name='Leaf101_102_VPG')
 fabricRsVpcInstPol = cobra.model.fabric.RsVpcInstPol(fabricExplicitGEp, annotation='', tnVpcInstPolName='')
