@@ -6,7 +6,7 @@
                 "attributes": {
                     "annotation": "",
                     "descr": "",
-                    "dn": "uni/infra/accportprof-Leaf101_102/hports-Eth_1_1-2-typ-range",
+                    "dn": "uni/infra/accportprof-Leaf101_102/hports-Eth1_1-2-typ-range",
                     "name": "Eth1_1-2",
                     "nameAlias": "",
                     "ownerKey": "",
