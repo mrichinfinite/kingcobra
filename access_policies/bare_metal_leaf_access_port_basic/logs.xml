@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infraInfra status='created,modified'>
+    <infraFuncP status='created,modified'>
+        <infraAccPortGrp annotation='' descr='' name='Access' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+            <infraRsStpIfPol annotation='' status='created,modified' tnStpIfPolName=''></infraRsStpIfPol>
+            <infraRsQosIngressDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosIngressDppIfPol>
+            <infraRsStormctrlIfPol annotation='' status='created,modified' tnStormctrlIfPolName=''></infraRsStormctrlIfPol>
+            <infraRsQosEgressDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosEgressDppIfPol>
+            <infraRsMonIfInfraPol annotation='' status='created,modified' tnMonInfraPolName=''></infraRsMonIfInfraPol>
+            <infraRsMcpIfPol annotation='' status='created,modified' tnMcpIfPolName=''></infraRsMcpIfPol>
+            <infraRsMacsecIfPol annotation='' status='created,modified' tnMacsecIfPolName=''></infraRsMacsecIfPol>
+            <infraRsQosSdIfPol annotation='' status='created,modified' tnQosSdIfPolName=''></infraRsQosSdIfPol>
+            <infraRsAttEntP annotation='' status='created,modified' tDn='uni/infra/attentp-AEP'></infraRsAttEntP>
+            <infraRsCdpIfPol annotation='' status='created,modified' tnCdpIfPolName='CDP_Enabled'></infraRsCdpIfPol>
+            <infraRsL2IfPol annotation='' status='created,modified' tnL2IfPolName=''></infraRsL2IfPol>
+            <infraRsQosDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosDppIfPol>
+            <infraRsCoppIfPol annotation='' status='created,modified' tnCoppIfPolName=''></infraRsCoppIfPol>
+            <infraRsLldpIfPol annotation='' status='created,modified' tnLldpIfPolName='LLDP_Enabled'></infraRsLldpIfPol>
+            <infraRsFcIfPol annotation='' status='created,modified' tnFcIfPolName=''></infraRsFcIfPol>
+            <infraRsQosPfcIfPol annotation='' status='created,modified' tnQosPfcIfPolName=''></infraRsQosPfcIfPol>
+            <infraRsHIfPol annotation='' status='created,modified' tnFabricHIfPolName=''></infraRsHIfPol>
+            <infraRsL2PortSecurityPol annotation='' status='created,modified' tnL2PortSecurityPolName=''></infraRsL2PortSecurityPol>
+            <infraRsL2PortAuthPol annotation='' status='created,modified' tnL2PortAuthPolName=''></infraRsL2PortAuthPol>
+        </infraAccPortGrp>
+    </infraFuncP>
+    <cdpIfPol adminSt='enabled' annotation='' descr='' name='CDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></cdpIfPol>
+    <lldpIfPol adminRxSt='enabled' adminTxSt='enabled' annotation='' descr='' name='LLDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lldpIfPol>
+    <infraNodeP annotation='' descr='' name='Leaf101' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+        <infraRsAccPortP annotation='' status='created,modified' tDn='uni/infra/accportprof-Leaf101'></infraRsAccPortP>
+        <infraLeafS annotation='' descr='' name='Leaf101' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+            <infraNodeBlk annotation='' descr='' from_='101' name='ff16139dc666a0f2' nameAlias='' status='created,modified' to_='101'></infraNodeBlk>
+        </infraLeafS>
+    </infraNodeP>
+    <infraAccPortP annotation='' descr='' name='Leaf101' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+        <infraHPortS annotation='' descr='' name='Eth1_1' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+            <infraRsAccBaseGrp annotation='' fexId='101' status='created,modified' tDn='uni/infra/funcprof/accportgrp-Access'></infraRsAccBaseGrp>
+            <infraPortBlk annotation='' descr='' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='1'></infraPortBlk>
+        </infraHPortS>
+    </infraAccPortP>
+    <infraAttEntityP annotation='' descr='' name='AEP' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+        <infraRsDomP annotation='' status='created,modified' tDn='uni/phys-Phys_Dom'></infraRsDomP>
+    </infraAttEntityP>
+    <fvnsVlanInstP allocMode='dynamic' annotation='' descr='' name='VLAN_Pool' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+        <fvnsEncapBlk allocMode='static' annotation='' descr='' from='vlan-1' name='' nameAlias='' role='external' status='created,modified' to='vlan-4094'></fvnsEncapBlk>
+    </fvnsVlanInstP>
+</infraInfra>
+<infraAccPortP annotation='' descr='' name='Leaf101' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+    <infraHPortS annotation='' descr='' name='Eth1_1' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+        <infraRsAccBaseGrp annotation='' fexId='101' status='created,modified' tDn='uni/infra/funcprof/accportgrp-Access'></infraRsAccBaseGrp>
+        <infraPortBlk annotation='' descr='' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='1'></infraPortBlk>
+    </infraHPortS>
+</infraAccPortP>
+<polUni status='created,modified'>
+    <infraInfra status='created,modified'>
+        <infraFuncP status='created,modified'>
+            <infraAccPortGrp annotation='' descr='' name='Access' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+                <infraRsStpIfPol annotation='' status='created,modified' tnStpIfPolName=''></infraRsStpIfPol>
+                <infraRsQosIngressDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosIngressDppIfPol>
+                <infraRsStormctrlIfPol annotation='' status='created,modified' tnStormctrlIfPolName=''></infraRsStormctrlIfPol>
+                <infraRsQosEgressDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosEgressDppIfPol>
+                <infraRsMonIfInfraPol annotation='' status='created,modified' tnMonInfraPolName=''></infraRsMonIfInfraPol>
+                <infraRsMcpIfPol annotation='' status='created,modified' tnMcpIfPolName=''></infraRsMcpIfPol>
+                <infraRsMacsecIfPol annotation='' status='created,modified' tnMacsecIfPolName=''></infraRsMacsecIfPol>
+                <infraRsQosSdIfPol annotation='' status='created,modified' tnQosSdIfPolName=''></infraRsQosSdIfPol>
+                <infraRsAttEntP annotation='' status='created,modified' tDn='uni/infra/attentp-AEP'></infraRsAttEntP>
+                <infraRsCdpIfPol annotation='' status='created,modified' tnCdpIfPolName='CDP_Enabled'></infraRsCdpIfPol>
+                <infraRsL2IfPol annotation='' status='created,modified' tnL2IfPolName=''></infraRsL2IfPol>
+                <infraRsQosDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosDppIfPol>
+                <infraRsCoppIfPol annotation='' status='created,modified' tnCoppIfPolName=''></infraRsCoppIfPol>
+                <infraRsLldpIfPol annotation='' status='created,modified' tnLldpIfPolName='LLDP_Enabled'></infraRsLldpIfPol>
+                <infraRsFcIfPol annotation='' status='created,modified' tnFcIfPolName=''></infraRsFcIfPol>
+                <infraRsQosPfcIfPol annotation='' status='created,modified' tnQosPfcIfPolName=''></infraRsQosPfcIfPol>
+                <infraRsHIfPol annotation='' status='created,modified' tnFabricHIfPolName=''></infraRsHIfPol>
+                <infraRsL2PortSecurityPol annotation='' status='created,modified' tnL2PortSecurityPolName=''></infraRsL2PortSecurityPol>
+                <infraRsL2PortAuthPol annotation='' status='created,modified' tnL2PortAuthPolName=''></infraRsL2PortAuthPol>
+            </infraAccPortGrp>
+        </infraFuncP>
+        <cdpIfPol adminSt='enabled' annotation='' descr='' name='CDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></cdpIfPol>
+        <lldpIfPol adminRxSt='enabled' adminTxSt='enabled' annotation='' descr='' name='LLDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lldpIfPol>
+        <infraNodeP annotation='' descr='' name='Leaf101' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+            <infraRsAccPortP annotation='' status='created,modified' tDn='uni/infra/accportprof-Leaf101'></infraRsAccPortP>
+            <infraLeafS annotation='' descr='' name='Leaf101' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+                <infraNodeBlk annotation='' descr='' from_='101' name='ff16139dc666a0f2' nameAlias='' status='created,modified' to_='101'></infraNodeBlk>
+            </infraLeafS>
+        </infraNodeP>
+        <infraAccPortP annotation='' descr='' name='Leaf101' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+            <infraHPortS annotation='' descr='' name='Eth1_1' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+                <infraRsAccBaseGrp annotation='' fexId='101' status='created,modified' tDn='uni/infra/funcprof/accportgrp-Access'></infraRsAccBaseGrp>
+                <infraPortBlk annotation='' descr='' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='1'></infraPortBlk>
+            </infraHPortS>
+        </infraAccPortP>
+        <infraAttEntityP annotation='' descr='' name='AEP' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+            <infraRsDomP annotation='' status='created,modified' tDn='uni/phys-Phys_Dom'></infraRsDomP>
+        </infraAttEntityP>
+        <fvnsVlanInstP allocMode='dynamic' annotation='' descr='' name='VLAN_Pool' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+            <fvnsEncapBlk allocMode='static' annotation='' descr='' from='vlan-1' name='' nameAlias='' role='external' status='created,modified' to='vlan-4094'></fvnsEncapBlk>
+        </fvnsVlanInstP>
+    </infraInfra>
+    <fabricInst status='created,modified'></fabricInst>
+    <physDomP annotation='' name='Phys_Dom' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+        <infraRsVlanNs annotation='' status='created,modified' tDn='uni/infra/vlanns-[VLAN_Pool]-dynamic'></infraRsVlanNs>
+    </physDomP>
+</polUni>

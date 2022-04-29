@@ -1,0 +1,29 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "physDomP": {
+                "attributes": {
+                    "annotation": "",
+                    "dn": "uni/phys-Phys_Dom",
+                    "name": "Phys_Dom",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "userdom": ":all:"
+                },
+                "children": [
+                    {
+                        "infraRsVlanNs": {
+                            "attributes": {
+                                "annotation": "",
+                                "tDn": "uni/infra/vlanns-[VLAN_Pool]-dynamic",
+                                "userdom": ":all:"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
