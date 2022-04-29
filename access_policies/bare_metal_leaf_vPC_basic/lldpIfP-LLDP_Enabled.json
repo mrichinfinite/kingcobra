@@ -1,0 +1,20 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "lldpIfPol": {
+                "attributes": {
+                    "adminRxSt": "enabled",
+                    "adminTxSt": "enabled",
+                    "annotation": "",
+                    "descr": "",
+                    "dn": "uni/infra/lldpIfP-LLDP_Enabled",
+                    "name": "LLDP_Enabled",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": ""
+                }
+            }
+        }
+    ]
+}
