@@ -5,22 +5,20 @@
             "infraAccBndlGrp": {
                 "attributes": {
                     "annotation": "",
-                    "descr": "",
+                    "descr": "Virtual port channel interface policy group.",
                     "dn": "uni/infra/funcprof/accbundle-vPC",
                     "lagT": "node",
                     "name": "vPC",
                     "nameAlias": "",
                     "ownerKey": "",
-                    "ownerTag": "",
-                    "userdom": ""
+                    "ownerTag": ""
                 },
                 "children": [
                     {
                         "infraRsStpIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnStpIfPolName": "",
-                                "userdom": ""
+                                "tnStpIfPolName": ""
                             }
                         }
                     },
@@ -28,8 +26,7 @@
                         "infraRsQosLlfcIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnQosLlfcIfPolName": "",
-                                "userdom": "all"
+                                "tnQosLlfcIfPolName": ""
                             }
                         }
                     },
@@ -37,8 +34,7 @@
                         "infraRsQosIngressDppIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnQosDppPolName": "",
-                                "userdom": ""
+                                "tnQosDppPolName": ""
                             }
                         }
                     },
@@ -46,8 +42,7 @@
                         "infraRsStormctrlIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnStormctrlIfPolName": "",
-                                "userdom": ""
+                                "tnStormctrlIfPolName": ""
                             }
                         }
                     },
@@ -55,8 +50,7 @@
                         "infraRsQosEgressDppIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnQosDppPolName": "",
-                                "userdom": ""
+                                "tnQosDppPolName": ""
                             }
                         }
                     },
@@ -64,8 +58,7 @@
                         "infraRsMonIfInfraPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnMonInfraPolName": "",
-                                "userdom": ""
+                                "tnMonInfraPolName": ""
                             }
                         }
                     },
@@ -73,8 +66,7 @@
                         "infraRsMcpIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnMcpIfPolName": "",
-                                "userdom": ""
+                                "tnMcpIfPolName": ""
                             }
                         }
                     },
@@ -82,8 +74,7 @@
                         "infraRsMacsecIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnMacsecIfPolName": "",
-                                "userdom": ""
+                                "tnMacsecIfPolName": ""
                             }
                         }
                     },
@@ -91,8 +82,7 @@
                         "infraRsQosSdIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnQosSdIfPolName": "",
-                                "userdom": ""
+                                "tnQosSdIfPolName": ""
                             }
                         }
                     },
@@ -100,8 +90,7 @@
                         "infraRsAttEntP": {
                             "attributes": {
                                 "annotation": "",
-                                "tDn": "uni/infra/attentp-AEP",
-                                "userdom": ""
+                                "tDn": "uni/infra/attentp-AEP"
                             }
                         }
                     },
@@ -109,8 +98,7 @@
                         "infraRsCdpIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnCdpIfPolName": "CDP_Enabled",
-                                "userdom": ""
+                                "tnCdpIfPolName": "CDP_Enabled"
                             }
                         }
                     },
@@ -118,8 +106,7 @@
                         "infraRsL2IfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnL2IfPolName": "",
-                                "userdom": ""
+                                "tnL2IfPolName": ""
                             }
                         }
                     },
@@ -127,8 +114,7 @@
                         "infraRsQosDppIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnQosDppPolName": "",
-                                "userdom": ""
+                                "tnQosDppPolName": ""
                             }
                         }
                     },
@@ -136,8 +122,7 @@
                         "infraRsCoppIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnCoppIfPolName": "",
-                                "userdom": ""
+                                "tnCoppIfPolName": ""
                             }
                         }
                     },
@@ -145,8 +130,7 @@
                         "infraRsLldpIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnLldpIfPolName": "LLDP_Enabled",
-                                "userdom": ""
+                                "tnLldpIfPolName": "LLDP_Enabled"
                             }
                         }
                     },
@@ -154,8 +138,7 @@
                         "infraRsFcIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnFcIfPolName": "",
-                                "userdom": ""
+                                "tnFcIfPolName": ""
                             }
                         }
                     },
@@ -163,8 +146,7 @@
                         "infraRsQosPfcIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnQosPfcIfPolName": "",
-                                "userdom": ""
+                                "tnQosPfcIfPolName": ""
                             }
                         }
                     },
@@ -172,8 +154,7 @@
                         "infraRsHIfPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnFabricHIfPolName": "",
-                                "userdom": ""
+                                "tnFabricHIfPolName": ""
                             }
                         }
                     },
@@ -181,8 +162,7 @@
                         "infraRsL2PortSecurityPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnL2PortSecurityPolName": "",
-                                "userdom": ""
+                                "tnL2PortSecurityPolName": ""
                             }
                         }
                     },
@@ -190,8 +170,7 @@
                         "infraRsL2PortAuthPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnL2PortAuthPolName": "",
-                                "userdom": ""
+                                "tnL2PortAuthPolName": ""
                             }
                         }
                     },
@@ -199,8 +178,7 @@
                         "infraRsLacpPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnLacpLagPolName": "LACP_Active",
-                                "userdom": ""
+                                "tnLacpLagPolName": "LACP_Active"
                             }
                         }
                     },
@@ -208,8 +186,7 @@
                         "infraRsLinkFlapPol": {
                             "attributes": {
                                 "annotation": "",
-                                "tnFabricLinkFlapPolName": "",
-                                "userdom": ""
+                                "tnFabricLinkFlapPolName": ""
                             }
                         }
                     }
