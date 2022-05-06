@@ -6,7 +6,7 @@
                 "attributes": {
                     "adminSt": "enabled",
                     "annotation": "",
-                    "descr": "",
+                    "descr": "Interface policy to enable CDP.",
                     "dn": "uni/infra/cdpIfP-CDP_Enabled",
                     "name": "CDP_Enabled",
                     "nameAlias": "",
