@@ -5,7 +5,7 @@
             "fabricProtPol": {
                 "attributes": {
                     "annotation": "",
-                    "descr": "",
+                    "descr": "vPC security policy.",
                     "dn": "uni/fabric/protpol",
                     "name": "default",
                     "nameAlias": "",
@@ -26,7 +26,7 @@
                                     "fabricRsVpcInstPol": {
                                         "attributes": {
                                             "annotation": "",
-                                            "tnVpcInstPolName": ""
+                                            "tnVpcInstPolName": "default"
                                         }
                                     }
                                 },
@@ -34,8 +34,8 @@
                                     "fabricNodePEp": {
                                         "attributes": {
                                             "annotation": "",
-                                            "descr": "",
-                                            "id": "102",
+                                            "descr": "Node policy endpoint identifier.",
+                                            "id": "101",
                                             "name": "",
                                             "nameAlias": "",
                                             "podId": "1"
@@ -46,8 +46,8 @@
                                     "fabricNodePEp": {
                                         "attributes": {
                                             "annotation": "",
-                                            "descr": "",
-                                            "id": "101",
+                                            "descr": "Node policy endpoint identifier.",
+                                            "id": "102",
                                             "name": "",
                                             "nameAlias": "",
                                             "podId": "1"
