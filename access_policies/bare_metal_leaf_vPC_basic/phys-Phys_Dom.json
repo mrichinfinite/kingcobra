@@ -9,16 +9,14 @@
                     "name": "Phys_Dom",
                     "nameAlias": "",
                     "ownerKey": "",
-                    "ownerTag": "",
-                    "userdom": ""
+                    "ownerTag": ""
                 },
                 "children": [
                     {
                         "infraRsVlanNs": {
                             "attributes": {
                                 "annotation": "",
-                                "tDn": "uni/infra/vlanns-[VLAN_Pool]-dynamic",
-                                "userdom": ""
+                                "tDn": "uni/infra/vlanns-[VLAN_Pool]-dynamic"
                             }
                         }
                     }
