@@ -5,7 +5,7 @@
             "infraAttEntityP": {
                 "attributes": {
                     "annotation": "",
-                    "descr": "",
+                    "descr": "Attachable access entity profile.",
                     "dn": "uni/infra/attentp-AEP",
                     "name": "AEP",
                     "nameAlias": "",
