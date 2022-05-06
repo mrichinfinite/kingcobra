@@ -6,7 +6,7 @@
                 "attributes": {
                     "annotation": "",
                     "ctrl": "fast-sel-hot-stdby,graceful-conv,susp-individual",
-                    "descr": "",
+                    "descr": "Interface policy for LACP active mode.",
                     "dn": "uni/infra/lacplagp-LACP_Active",
                     "maxLinks": "16",
                     "minLinks": "1",
