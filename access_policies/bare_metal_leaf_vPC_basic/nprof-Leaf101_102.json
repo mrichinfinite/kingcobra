@@ -5,21 +5,19 @@
             "infraNodeP": {
                 "attributes": {
                     "annotation": "",
-                    "descr": "",
+                    "descr": "Leaf node profile for leaf nodes 101 and 102.",
                     "dn": "uni/infra/nprof-Leaf101_102",
                     "name": "Leaf101_102",
                     "nameAlias": "",
                     "ownerKey": "",
-                    "ownerTag": "",
-                    "userdom": ""
+                    "ownerTag": ""
                 },
                 "children": [
                     {
                         "infraRsAccPortP": {
                             "attributes": {
                                 "annotation": "",
-                                "tDn": "uni/infra/accportprof-Leaf101_102",
-                                "userdom": ""
+                                "tDn": "uni/infra/accportprof-Leaf101_102"
                             }
                         }
                     },
@@ -27,25 +25,23 @@
                         "infraLeafS": {
                             "attributes": {
                                 "annotation": "",
-                                "descr": "",
+                                "descr": "Leaf selector for leaf nodes 101 and 102.",
                                 "name": "Leaf101_102",
                                 "nameAlias": "",
                                 "ownerKey": "",
                                 "ownerTag": "",
-                                "type": "range",
-                                "userdom": ""
+                                "type": "range"
                             },
                             "children": [
                                 {
                                     "infraNodeBlk": {
                                         "attributes": {
                                             "annotation": "",
-                                            "descr": "",
+                                            "descr": "Leaf block 101-102.",
                                             "from_": "101",
                                             "name": "ff16139dc666a0f2",
                                             "nameAlias": "",
-                                            "to_": "102",
-                                            "userdom": ""
+                                            "to_": "102"
                                         }
                                     }
                                 }
