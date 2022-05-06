@@ -6,13 +6,12 @@
                 "attributes": {
                     "allocMode": "dynamic",
                     "annotation": "",
-                    "descr": "",
+                    "descr": "VLAN pool for VLANs 1-4094.",
                     "dn": "uni/infra/vlanns-[VLAN_Pool]-dynamic",
                     "name": "VLAN_Pool",
                     "nameAlias": "",
                     "ownerKey": "",
-                    "ownerTag": "",
-                    "userdom": ""
+                    "ownerTag": ""
                 },
                 "children": [
                     {
@@ -20,13 +19,12 @@
                             "attributes": {
                                 "allocMode": "static",
                                 "annotation": "",
-                                "descr": "",
+                                "descr": "VLAN range 1-4094.",
                                 "from": "vlan-1",
                                 "name": "",
                                 "nameAlias": "",
                                 "role": "external",
-                                "to": "vlan-4094",
-                                "userdom": ""
+                                "to": "vlan-4094"
                             }
                         }
                     }
