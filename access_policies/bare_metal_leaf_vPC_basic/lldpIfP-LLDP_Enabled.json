@@ -7,7 +7,7 @@
                     "adminRxSt": "enabled",
                     "adminTxSt": "enabled",
                     "annotation": "",
-                    "descr": "",
+                    "descr": "Interface policy to enable LLDP.",
                     "dn": "uni/infra/lldpIfP-LLDP_Enabled",
                     "name": "LLDP_Enabled",
                     "nameAlias": "",
