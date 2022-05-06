@@ -17,7 +17,7 @@
                         "infraHPortS": {
                             "attributes": {
                                 "annotation": "",
-                                "descr": "Ethernet interfaces 1\/1 and 1\/2.",
+                                "descr": "Ethernet interfaces 1/1 and 1/2.",
                                 "name": "Eth1_1-2",
                                 "nameAlias": "",
                                 "ownerKey": "",
@@ -38,7 +38,7 @@
                                     "infraPortBlk": {
                                         "attributes": {
                                             "annotation": "",
-                                            "descr": "Interface block Ethernet 1\/1-1\/2.",
+                                            "descr": "Interface block Ethernet 1/1-1/2.",
                                             "fromCard": "1",
                                             "fromPort": "1",
                                             "name": "block2",
