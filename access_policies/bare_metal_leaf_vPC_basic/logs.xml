@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <infraInfra status='created,modified'>
     <infraFuncP status='created,modified'>
-        <infraAccBndlGrp annotation='' descr='' lagT='node' name='vPC' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+        <infraAccBndlGrp annotation='' descr='Virtual port channel interface policy group.' lagT='node' name='vPC' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
             <infraRsStpIfPol annotation='' status='created,modified' tnStpIfPolName=''></infraRsStpIfPol>
-            <infraRsQosLlfcIfPol annotation='' status='created,modified' tnQosLlfcIfPolName=''></infraRsQosLlfcIfPol>
             <infraRsQosIngressDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosIngressDppIfPol>
             <infraRsStormctrlIfPol annotation='' status='created,modified' tnStormctrlIfPolName=''></infraRsStormctrlIfPol>
             <infraRsQosEgressDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosEgressDppIfPol>
@@ -23,43 +22,43 @@
             <infraRsL2PortSecurityPol annotation='' status='created,modified' tnL2PortSecurityPolName=''></infraRsL2PortSecurityPol>
             <infraRsL2PortAuthPol annotation='' status='created,modified' tnL2PortAuthPolName=''></infraRsL2PortAuthPol>
             <infraRsLacpPol annotation='' status='created,modified' tnLacpLagPolName='LACP_Active'></infraRsLacpPol>
-            <infraRsLinkFlapPol annotation='' status='created,modified' tnFabricLinkFlapPolName=''></infraRsLinkFlapPol>
         </infraAccBndlGrp>
     </infraFuncP>
-    <cdpIfPol adminSt='enabled' annotation='' descr='' name='CDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></cdpIfPol>
-    <lldpIfPol adminRxSt='enabled' adminTxSt='enabled' annotation='' descr='' name='LLDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lldpIfPol>
-    <lacpLagPol annotation='' ctrl='fast-sel-hot-stdby,graceful-conv,susp-individual' descr='' maxLinks='16' minLinks='1' mode='active' name='LACP_Active' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lacpLagPol>
-    <infraNodeP annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+    <cdpIfPol adminSt='enabled' annotation='' descr='Interface policy to enable CDP.' name='CDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></cdpIfPol>
+    <lldpIfPol adminRxSt='enabled' adminTxSt='enabled' annotation='' descr='Interface policy to enable LLDP.' name='LLDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lldpIfPol>
+    <lacpLagPol annotation='' ctrl='fast-sel-hot-stdby,graceful-conv,susp-individual' descr='Interface policy for LACP active mode.' maxLinks='16' minLinks='1' mode='active' name='LACP_Active' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lacpLagPol>
+    <infraNodeP annotation='' descr='Leaf node profile for leaf nodes 101 and 102.' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
         <infraRsAccPortP annotation='' status='created,modified' tDn='uni/infra/accportprof-Leaf101_102'></infraRsAccPortP>
-        <infraLeafS annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
-            <infraNodeBlk annotation='' descr='' from_='101' name='ff16139dc666a0f2' nameAlias='' status='created,modified' to_='102'></infraNodeBlk>
+        <infraLeafS annotation='' descr='Leaf selector for leaf nodes 101 and 102.' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+            <infraNodeBlk annotation='' descr='Leaf block 101-102.' from_='101' name='ff16139dc666a0f2' nameAlias='' status='created,modified' to_='102'></infraNodeBlk>
         </infraLeafS>
     </infraNodeP>
-    <infraAccPortP annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
-        <infraHPortS annotation='' descr='' name='Eth1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+    <infraAccPortP annotation='' descr='Leaf interface profile for leaf nodes 101 and 102.' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+        <infraHPortS annotation='' descr='Ethernet interfaces 1/1 and 1/2.' name='Eth1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
             <infraRsAccBaseGrp annotation='' fexId='101' status='created,modified' tDn='uni/infra/funcprof/accbundle-vPC'></infraRsAccBaseGrp>
-            <infraPortBlk annotation='' descr='' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='2'></infraPortBlk>
+            <infraPortBlk annotation='' descr='Interface block Ethernet 1/1-1/2.' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='2'></infraPortBlk>
         </infraHPortS>
     </infraAccPortP>
-    <infraAttEntityP annotation='' descr='' name='AEP' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+    <infraAttEntityP annotation='' descr='Attachable access entity profile.' name='AEP' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
         <infraRsDomP annotation='' status='created,modified' tDn='uni/phys-Phys_Dom'></infraRsDomP>
     </infraAttEntityP>
-    <fvnsVlanInstP allocMode='dynamic' annotation='' descr='' name='VLAN_Pool' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
-        <fvnsEncapBlk allocMode='static' annotation='' descr='' from='vlan-1' name='' nameAlias='' role='external' status='created,modified' to='vlan-4094'></fvnsEncapBlk>
+    <fvnsVlanInstP allocMode='dynamic' annotation='' descr='VLAN pool for VLANs 1-4094.' name='VLAN_Pool' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+        <fvnsEncapBlk allocMode='static' annotation='' descr='VLAN range 1-4094.' from='vlan-1' name='' nameAlias='' role='external' status='created,modified' to='vlan-1'></fvnsEncapBlk>
     </fvnsVlanInstP>
 </infraInfra>
-<infraAccPortP annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
-    <infraHPortS annotation='' descr='' name='Eth1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+<?xml version="1.0" encoding="UTF-8"?>
+<infraAccPortP annotation='' descr='Leaf interface profile for leaf nodes 101 and 102.' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+    <infraHPortS annotation='' descr='Ethernet interfaces 1/1 and 1/2.' name='Eth1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
         <infraRsAccBaseGrp annotation='' fexId='101' status='created,modified' tDn='uni/infra/funcprof/accbundle-vPC'></infraRsAccBaseGrp>
-        <infraPortBlk annotation='' descr='' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='2'></infraPortBlk>
+        <infraPortBlk annotation='' descr='Interface block Ethernet 1/1-1/2.' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='2'></infraPortBlk>
     </infraHPortS>
 </infraAccPortP>
+<?xml version="1.0" encoding="UTF-8"?>
 <polUni status='created,modified'>
     <infraInfra status='created,modified'>
         <infraFuncP status='created,modified'>
-            <infraAccBndlGrp annotation='' descr='' lagT='node' name='vPC' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+            <infraAccBndlGrp annotation='' descr='Virtual port channel interface policy group.' lagT='node' name='vPC' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
                 <infraRsStpIfPol annotation='' status='created,modified' tnStpIfPolName=''></infraRsStpIfPol>
-                <infraRsQosLlfcIfPol annotation='' status='created,modified' tnQosLlfcIfPolName=''></infraRsQosLlfcIfPol>
                 <infraRsQosIngressDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosIngressDppIfPol>
                 <infraRsStormctrlIfPol annotation='' status='created,modified' tnStormctrlIfPolName=''></infraRsStormctrlIfPol>
                 <infraRsQosEgressDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosEgressDppIfPol>
@@ -79,37 +78,36 @@
                 <infraRsL2PortSecurityPol annotation='' status='created,modified' tnL2PortSecurityPolName=''></infraRsL2PortSecurityPol>
                 <infraRsL2PortAuthPol annotation='' status='created,modified' tnL2PortAuthPolName=''></infraRsL2PortAuthPol>
                 <infraRsLacpPol annotation='' status='created,modified' tnLacpLagPolName='LACP_Active'></infraRsLacpPol>
-                <infraRsLinkFlapPol annotation='' status='created,modified' tnFabricLinkFlapPolName=''></infraRsLinkFlapPol>
             </infraAccBndlGrp>
         </infraFuncP>
-        <cdpIfPol adminSt='disabled' annotation='' descr='' name='CDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></cdpIfPol>
-        <lldpIfPol adminRxSt='enabled' adminTxSt='enabled' annotation='' descr='' name='LLDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lldpIfPol>
-        <lacpLagPol annotation='' ctrl='fast-sel-hot-stdby,graceful-conv,susp-individual' descr='' maxLinks='16' minLinks='1' mode='active' name='LACP_Active' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lacpLagPol>
-        <infraNodeP annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+        <cdpIfPol adminSt='enabled' annotation='' descr='Interface policy to enable CDP.' name='CDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></cdpIfPol>
+        <lldpIfPol adminRxSt='enabled' adminTxSt='enabled' annotation='' descr='Interface policy to enable LLDP.' name='LLDP_Enabled' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lldpIfPol>
+        <lacpLagPol annotation='' ctrl='fast-sel-hot-stdby,graceful-conv,susp-individual' descr='Interface policy for LACP active mode.' maxLinks='16' minLinks='1' mode='active' name='LACP_Active' nameAlias='' ownerKey='' ownerTag='' status='created,modified'></lacpLagPol>
+        <infraNodeP annotation='' descr='Leaf node profile for leaf nodes 101 and 102.' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
             <infraRsAccPortP annotation='' status='created,modified' tDn='uni/infra/accportprof-Leaf101_102'></infraRsAccPortP>
-            <infraLeafS annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
-                <infraNodeBlk annotation='' descr='' from_='101' name='ff16139dc666a0f2' nameAlias='' status='created,modified' to_='102'></infraNodeBlk>
+            <infraLeafS annotation='' descr='Leaf selector for leaf nodes 101 and 102.' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+                <infraNodeBlk annotation='' descr='Leaf block 101-102.' from_='101' name='ff16139dc666a0f2' nameAlias='' status='created,modified' to_='102'></infraNodeBlk>
             </infraLeafS>
         </infraNodeP>
-        <infraAccPortP annotation='' descr='' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
-            <infraHPortS annotation='' descr='' name='Eth1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
+        <infraAccPortP annotation='' descr='Leaf interface profile for leaf nodes 101 and 102.' name='Leaf101_102' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+            <infraHPortS annotation='' descr='Ethernet interfaces 1/1 and 1/2.' name='Eth1_1-2' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='range'>
                 <infraRsAccBaseGrp annotation='' fexId='101' status='created,modified' tDn='uni/infra/funcprof/accbundle-vPC'></infraRsAccBaseGrp>
-                <infraPortBlk annotation='' descr='' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='2'></infraPortBlk>
+                <infraPortBlk annotation='' descr='Interface block Ethernet 1/1-1/2.' fromCard='1' fromPort='1' name='block2' nameAlias='' status='created,modified' toCard='1' toPort='2'></infraPortBlk>
             </infraHPortS>
         </infraAccPortP>
-        <infraAttEntityP annotation='' descr='' name='AEP' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+        <infraAttEntityP annotation='' descr='Attachable access entity profile.' name='AEP' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
             <infraRsDomP annotation='' status='created,modified' tDn='uni/phys-Phys_Dom'></infraRsDomP>
         </infraAttEntityP>
-        <fvnsVlanInstP allocMode='dynamic' annotation='' descr='' name='VLAN_Pool' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
-            <fvnsEncapBlk allocMode='static' annotation='' descr='' from='vlan-1' name='' nameAlias='' role='external' status='created,modified' to='vlan-4094'></fvnsEncapBlk>
+        <fvnsVlanInstP allocMode='dynamic' annotation='' descr='VLAN pool for VLANs 1-4094.' name='VLAN_Pool' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+            <fvnsEncapBlk allocMode='static' annotation='' descr='VLAN range 1-4094.' from='vlan-1' name='' nameAlias='' role='external' status='created,modified' to='vlan-4094'></fvnsEncapBlk>
         </fvnsVlanInstP>
     </infraInfra>
     <fabricInst status='created,modified'>
-        <fabricProtPol annotation='' descr='' name='default' nameAlias='' ownerKey='' ownerTag='' pairT='explicit' status='created,modified'>
+        <fabricProtPol annotation='' descr='vPC security policy.' name='default' nameAlias='' ownerKey='' ownerTag='' pairT='explicit' status='created,modified'>
             <fabricExplicitGEp annotation='' id='1' name='Leaf101_102_VPG' status='created,modified'>
-                <fabricRsVpcInstPol annotation='' status='created,modified' tnVpcInstPolName=''></fabricRsVpcInstPol>
-                <fabricNodePEp annotation='' descr='' id='102' name='' nameAlias='' podId='1' status='created,modified'></fabricNodePEp>
-                <fabricNodePEp annotation='' descr='' id='101' name='' nameAlias='' podId='1' status='created,modified'></fabricNodePEp>
+                <fabricRsVpcInstPol annotation='' status='created,modified' tnVpcInstPolName='default'></fabricRsVpcInstPol>
+                <fabricNodePEp annotation='' descr='Node policy endpoint identifier.' id='102' name='' nameAlias='' podId='1' status='created,modified'></fabricNodePEp>
+                <fabricNodePEp annotation='' descr='Node policy endpoint identifier.' id='101' name='' nameAlias='' podId='1' status='created,modified'></fabricNodePEp>
             </fabricExplicitGEp>
         </fabricProtPol>
     </fabricInst>
@@ -117,19 +115,20 @@
         <infraRsVlanNs annotation='' status='created,modified' tDn='uni/infra/vlanns-[VLAN_Pool]-dynamic'></infraRsVlanNs>
     </physDomP>
 </polUni>
+<?xml version="1.0" encoding="UTF-8"?>
 <fabricInst status='created,modified'>
-    <fabricProtPol annotation='' descr='' name='default' nameAlias='' ownerKey='' ownerTag='' pairT='explicit' status='created,modified'>
+    <fabricProtPol annotation='' descr='vPC security policy.' name='default' nameAlias='' ownerKey='' ownerTag='' pairT='explicit' status='created,modified'>
         <fabricExplicitGEp annotation='' id='1' name='Leaf101_102_VPG' status='created,modified'>
-            <fabricRsVpcInstPol annotation='' status='created,modified' tnVpcInstPolName=''></fabricRsVpcInstPol>
-            <fabricNodePEp annotation='' descr='' id='102' name='' nameAlias='' podId='1' status='created,modified'></fabricNodePEp>
-            <fabricNodePEp annotation='' descr='' id='101' name='' nameAlias='' podId='1' status='created,modified'></fabricNodePEp>
+            <fabricRsVpcInstPol annotation='' status='created,modified' tnVpcInstPolName='default'></fabricRsVpcInstPol>
+            <fabricNodePEp annotation='' descr='Node policy endpoint identifier.' id='102' name='' nameAlias='' podId='1' status='created,modified'></fabricNodePEp>
+            <fabricNodePEp annotation='' descr='Node policy endpoint identifier.' id='101' name='' nameAlias='' podId='1' status='created,modified'></fabricNodePEp>
         </fabricExplicitGEp>
     </fabricProtPol>
 </fabricInst>
+<?xml version="1.0" encoding="UTF-8"?>
 <infraFuncP status='created,modified'>
-    <infraAccBndlGrp annotation='' descr='' lagT='node' name='vPC' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+    <infraAccBndlGrp annotation='' descr='Virtual port channel interface policy group.' lagT='node' name='vPC' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
         <infraRsStpIfPol annotation='' status='created,modified' tnStpIfPolName=''></infraRsStpIfPol>
-        <infraRsQosLlfcIfPol annotation='' status='created,modified' tnQosLlfcIfPolName=''></infraRsQosLlfcIfPol>
         <infraRsQosIngressDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosIngressDppIfPol>
         <infraRsStormctrlIfPol annotation='' status='created,modified' tnStormctrlIfPolName=''></infraRsStormctrlIfPol>
         <infraRsQosEgressDppIfPol annotation='' status='created,modified' tnQosDppPolName=''></infraRsQosEgressDppIfPol>
@@ -149,6 +148,5 @@
         <infraRsL2PortSecurityPol annotation='' status='created,modified' tnL2PortSecurityPolName=''></infraRsL2PortSecurityPol>
         <infraRsL2PortAuthPol annotation='' status='created,modified' tnL2PortAuthPolName=''></infraRsL2PortAuthPol>
         <infraRsLacpPol annotation='' status='created,modified' tnLacpLagPolName='LACP_Active'></infraRsLacpPol>
-        <infraRsLinkFlapPol annotation='' status='created,modified' tnFabricLinkFlapPolName=''></infraRsLinkFlapPol>
     </infraAccBndlGrp>
 </infraFuncP>
