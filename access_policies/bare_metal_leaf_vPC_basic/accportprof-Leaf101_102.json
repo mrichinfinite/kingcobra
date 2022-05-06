@@ -5,26 +5,24 @@
             "infraAccPortP": {
                 "attributes": {
                     "annotation": "",
-                    "descr": "",
+                    "descr": "Leaf interface profile for leaf nodes 101 and 102.",
                     "dn": "uni/infra/accportprof-Leaf101_102",
                     "name": "Leaf101_102",
                     "nameAlias": "",
                     "ownerKey": "",
-                    "ownerTag": "",
-                    "userdom": ""
+                    "ownerTag": ""
                 },
                 "children": [
                     {
                         "infraHPortS": {
                             "attributes": {
                                 "annotation": "",
-                                "descr": "",
+                                "descr": "Ethernet interfaces 1\/1 and 1\/2.",
                                 "name": "Eth1_1-2",
                                 "nameAlias": "",
                                 "ownerKey": "",
                                 "ownerTag": "",
-                                "type": "range",
-                                "userdom": ""
+                                "type": "range"
                             },
                             "children": [
                                 {
@@ -32,8 +30,7 @@
                                         "attributes": {
                                             "annotation": "",
                                             "fexId": "101",
-                                            "tDn": "uni/infra/funcprof/accbundle-vPC",
-                                            "userdom": ""
+                                            "tDn": "uni/infra/funcprof/accbundle-vPC"
                                         }
                                     }
                                 },
@@ -41,20 +38,19 @@
                                     "infraPortBlk": {
                                         "attributes": {
                                             "annotation": "",
-                                            "descr": "",
+                                            "descr": "Interface block Ethernet 1\/1-1\/2.",
                                             "fromCard": "1",
                                             "fromPort": "1",
                                             "name": "block2",
                                             "nameAlias": "",
                                             "toCard": "1",
-                                            "toPort": "2",
-                                            "userdom": ""
+                                            "toPort": "2"
                                         }
                                     }
                                 }
                             ]
                         }
-                    } 
+                    }
                 ]
             }
         }
