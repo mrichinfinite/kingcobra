@@ -445,7 +445,7 @@ infraRsLldpIfPol_annotation = ''
 # Configure policy:
 infraRsLldpIfPol = cobra.model.infra.RsLldpIfPol(infraAccBndlGrp, annotation=infraRsLldpIfPol_annotation, tnLldpIfPolName=infraRsLldpIfPol_tnLldpIfPolName)
 
-# Interface Fibre Channel policy (infraRsFcIfPol) (Relation to Fibre Channel Interface Policy)
+# Interface Fibre Channel Policy (infraRsFcIfPol) (Relation to Fibre Channel Interface Policy)
 '''
 A source relation to the Fibre Channel interface policy.
 '''
