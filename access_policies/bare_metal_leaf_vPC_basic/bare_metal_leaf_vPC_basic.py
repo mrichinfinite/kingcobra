@@ -324,7 +324,7 @@ infraRsStormctrlIfPol_annotation = ''
 # Configure policy:
 infraRsStormctrlIfPol = cobra.model.infra.RsStormctrlIfPol(infraAccBndlGrp, annotation=infraRsStormctrlIfPol_annotation, tnStormctrlIfPolName=infraRsStormctrlIfPol_tnStormctrlIfPolName)
 
-# Egress Data Plane Policing Policy (infraRsQosEgressDppIfPol) (Relation to Egress Data Plane Policing Interface Policy)
+# Egress Data Plane Policing Policy (infraRsQosEgressDppIfPol) (Relation to Data Plane Policing Interface Policy)
 '''
 A source relation to the data plane policing interface policy as egress.
 '''
@@ -412,7 +412,7 @@ infraRsL2IfPol_annotation = ''
 # Configure policy:
 infraRsL2IfPol = cobra.model.infra.RsL2IfPol(infraAccBndlGrp, annotation=infraRsL2IfPol_annotation, tnL2IfPolName=infraRsL2IfPol_tnL2IfPolName)
 
-# Data Plane Policy Both (infraRsQosDppIfPol)
+# Data Plane Policy Both (infraRsQosDppIfPol) (Relation to Data Plane Policing Interface Policy)
 '''
 A source relation to the data plane policing interface policy.
 '''
