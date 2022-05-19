@@ -1,4 +1,4 @@
-# Basic access policies for connecting a bare metal (physical) server/host to ACI via vPC. Change the variables as needed for your environment. Tested and verified on ACI software version 4.2(7f).
+# Basic access policies for connecting a bare metal (physical) server/host to ACI via vPC. Change the variables as needed for your environment. Tested and verified on ACI software version 5.2(4e).
 
 # Imports
 import cobra.mit.access
