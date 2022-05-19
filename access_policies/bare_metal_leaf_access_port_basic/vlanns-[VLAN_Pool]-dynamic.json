@@ -21,11 +21,11 @@
                                 "allocMode": "static",
                                 "annotation": "",
                                 "descr": "",
-                                "from": "vlan-2",
+                                "from": "vlan-1",
                                 "name": "",
                                 "nameAlias": "",
                                 "role": "external",
-                                "to": "vlan-3",
+                                "to": "vlan-4094",
                                 "userdom": ":all:"
                             }
                         }
