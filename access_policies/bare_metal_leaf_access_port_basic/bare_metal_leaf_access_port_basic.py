@@ -1,4 +1,4 @@
-# Basic access policies for connecting a bare metal (physical) server/host to ACI via vPC. Change the variables as needed for your environment. Tested and verified on ACI software version 5.2(4e).
+# Basic access policies for connecting a bare metal (physical) server/host to ACI via leaf access port. Change the variables as needed for your environment. Tested and verified on ACI software version 5.2(4e).
 
 # Imports
 import cobra.mit.access
@@ -15,7 +15,7 @@ import cobra.model.fabric
 from cobra.internal.codec.xmlcodec import toXMLStr
 
 # Provide login information and establish a connection with the APIC.
-ls = cobra.mit.session.LoginSession('https://10.197.206.7', 'admin', 'cisco!123')
+ls = cobra.mit.session.LoginSession('https://<apic-ip-address-or-hostname>', '<username>', '<password>')
 md = cobra.mit.access.MoDirectory(ls)
 md.login()
 
