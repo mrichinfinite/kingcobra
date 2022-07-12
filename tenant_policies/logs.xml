@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<polUni>
+    <fvTenant descr='Tenant for service provider.' name='Tenant' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+        <vnsSvcCont annotation='' status='created,modified'></vnsSvcCont>
+        <fvCtx annotation='' bdEnforcedEnable='no' descr='VRF for service provider tenant.' ipDataPlaneLearning='enabled' knwMcastAct='permit' name='VRF' nameAlias='' ownerKey='' ownerTag='' pcEnfDir='ingress' pcEnfPref='enforced' status='created,modified'>
+            <fvRsVrfValidationPol annotation='' status='created,modified' tnL3extVrfValidationPolName=''></fvRsVrfValidationPol>
+            <vzAny annotation='' descr='' matchT='AtleastOne' name='' nameAlias='' prefGrMemb='disabled' status='created,modified'></vzAny>
+            <fvRsOspfCtxPol annotation='' status='created,modified' tnOspfCtxPolName=''></fvRsOspfCtxPol>
+            <fvRsCtxToEpRet annotation='' status='created,modified' tnFvEpRetPolName=''></fvRsCtxToEpRet>
+            <fvRsCtxToExtRouteTagPol annotation='' status='created,modified' tnL3extRouteTagPolName=''></fvRsCtxToExtRouteTagPol>
+            <fvRsBgpCtxPol annotation='' status='created,modified' tnBgpCtxPolName=''></fvRsBgpCtxPol>
+        </fvCtx>
+        <fvBD OptimizeWanBandwidth='no' annotation='' arpFlood='yes' descr='BD for service provider tenant.' epClear='no' epMoveDetectMode='' hostBasedRouting='no' intersiteBumTrafficAllow='no' intersiteL2Stretch='no' ipLearning='yes' ipv6McastAllow='no' limitIpLearnToSubnets='yes' llAddr='::' mac='00:22:BD:F8:19:FF' mcastAllow='no' multiDstPktAct='bd-flood' name='BD' nameAlias='' ownerKey='' ownerTag='' status='created,modified' type='regular' unicastRoute='yes' unkMacUcastAct='proxy' unkMcastAct='flood' v6unkMcastAct='flood' vmac='not-applicable'>
+            <fvSubnet annotation='' ctrl='' descr='' ip='192.168.1.1/24' name='' nameAlias='' preferred='yes' status='created,modified' virtual='no'></fvSubnet>
+            <fvRsMldsn annotation='' status='created,modified' tnMldSnoopPolName=''></fvRsMldsn>
+            <fvRsIgmpsn annotation='' status='created,modified' tnIgmpSnoopPolName=''></fvRsIgmpsn>
+            <fvRsCtx annotation='' status='created,modified' tnFvCtxName='VRF'></fvRsCtx>
+            <fvRsBdToEpRet annotation='' resolveAct='resolve' status='created,modified' tnFvEpRetPolName=''></fvRsBdToEpRet>
+            <fvRsBDToNdP annotation='' status='created,modified' tnNdIfPolName=''></fvRsBDToNdP>
+            <fvRsTenantMonPol annotation='' status='created,modified' tnMonEPGPolName=''></fvRsTenantMonPol>
+        </fvBD>
+        <fvAp annotation='' descr='AP for service provider tenant.' name='AP' nameAlias='' ownerKey='' ownerTag='' prio='unspecified' status='created,modified'>
+            <fvAEPg annotation='' descr='' exceptionTag='' floodOnEncap='disabled' fwdCtrl='' hasMcastSource='no' isAttrBasedEPg='no' matchT='AtleastOne' name='EPG' nameAlias='' pcEnfPref='unenforced' prefGrMemb='exclude' prio='unspecified' shutdown='no' status='created,modified'>
+                <fvRsPathAtt annotation='' descr='' encap='vlan-2' instrImedcy='immediate' mode='regular' primaryEncap='unknown' status='created,modified' tDn='topology/pod-1/paths-101/pathep-[eth1/1]'></fvRsPathAtt>
+                <fvRsDomAtt annotation='' bindingType='none' classPref='encap' customEpgName='' delimiter='' encap='unknown' encapMode='auto' epgCos='Cos0' epgCosPref='disabled' instrImedcy='lazy' lagPolicyName='' netflowDir='both' netflowPref='disabled' numPorts='0' portAllocation='none' primaryEncap='unknown' primaryEncapInner='unknown' resImedcy='lazy' secondaryEncapInner='unknown' status='created,modified' switchingMode='native' tDn='uni/phys-Phys_Dom' untagged='no'></fvRsDomAtt>
+                <fvRsCustQosPol annotation='' status='created,modified' tnQosCustomPolName=''></fvRsCustQosPol>
+                <fvRsBd annotation='' status='created,modified' tnFvBDName='BD'></fvRsBd>
+            </fvAEPg>
+        </fvAp>
+    </fvTenant>
+</polUni>
