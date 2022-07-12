@@ -1,4 +1,4 @@
-# Basic tenant policies for connecting a bare metal (physical) server/host to ACI via leaf access port. Change the variables as needed for your environment. Tested and verified on ACI software version 5.2(3e).
+# Basic tenant policies for connecting a bare metal (physical) server/host to ACI via leaf trunk port. Change the variables as needed for your environment. Tested and verified on ACI software version 5.2(3e).
 
 # Imports
 import cobra.mit.access
