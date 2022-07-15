@@ -1,4 +1,4 @@
-# Basic access policies for connecting a bare metal (physical) server/host to ACI via leaf access port. Change the variables as needed for your environment. Tested and verified on ACI software version 5.2(4e).
+# Basic access policies for connecting a bare metal (physical) endpoint to ACI via leaf access port. Change the variables as needed for your environment. Tested and verified on ACI software version 5.2(4e).
 
 # Imports
 import cobra.mit.access
