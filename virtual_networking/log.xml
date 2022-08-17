@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<polUni status='created,modified'>
+    <infraInfra status='created,modified'>
+        <infraAttEntityP annotation='' descr='Attachable access entity profile.' name='AEP' nameAlias='' ownerKey='' ownerTag='' status='created,modified'>
+            <infraRsDomP annotation='' status='created,modified' tDn='uni/vmmp-VMware/dom-VMM'>
+            </infraRsDomP>
+        </infraAttEntityP>
+    </infraInfra>
+</polUni>
+<vmmProvP vendor='VMware'>
+    <vmmDomP accessMode='read-write' annotation='' arpLearning='' aveTimeOut='30' configInfraPg='no' ctrlKnob='epDpVerify' delimiter='' enableAVE='no' enableTag='no' enableVmFolder='no' encapMode='unknown' enfPref='hw' epInventoryType='on-link' epRetTime='0' hvAvailMonitor='no' mcastAddr='0.0.0.0' mode='default' name='VMM' nameAlias='' ownerKey='' ownerTag='' prefEncapMode='unspecified' status='created,modified'>
+        <infraRsVlanNs annotation='' status='created,modified' tDn='uni/infra/vlanns-[VLAN_Pool]-dynamic'></infraRsVlanNs>
+        <vmmRsDefaultLldpIfPol annotation='' status='created,modified' tnLldpIfPolName='LLDP_Enabled'></vmmRsDefaultLldpIfPol>
+        <vmmRsDefaultCdpIfPol annotation='' status='created,modified' tnCdpIfPolName='CDP_Enabled'></vmmRsDefaultCdpIfPol>
+        <vmmCtrlrP annotation='' dvsVersion='unmanaged' hostOrIp='192.168.1.1' inventoryTrigSt='untriggered' mode='default' msftConfigErrMsg='' msftConfigIssues='' name='vCenter' nameAlias='' port='0' rootContName='DC' seqNum='0' statsMode='disabled' status='created,modified' vxlanDeplPref='vxlan'>
+            <vmmRsAcc annotation='' status='created,modified' tDn='uni/vmmp-VMware/dom-VMM/usracc-vCenter-Creds'></vmmRsAcc>
+        </vmmCtrlrP>
+        <vmmRsDefaultFwPol annotation='' status='created,modified' tnNwsFwPolName=''></vmmRsDefaultFwPol>
+        <vmmRsDefaultLacpLagPol annotation='' status='created,modified' tnLacpLagPolName=''></vmmRsDefaultLacpLagPol>
+            <vmmVSwitchPolicyCont annotation='' descr='' nameAlias='' status='created,modified'>
+                <vmmRsVswitchOverrideLldpIfPol annotation='' status='created,modified' tDn='uni/infra/lldpIfP-LLDP_Enabled'></vmmRsVswitchOverrideLldpIfPol>
+                <vmmRsVswitchOverrideLacpPol annotation='' status='created,modified' tDn='uni/infra/lacplagp-MAC_Pinning'></vmmRsVswitchOverrideLacpPol>
+                <vmmRsVswitchOverrideCdpIfPol annotation='' status='created,modified' tDn='uni/infra/cdpIfP-CDP_Enabled'></vmmRsVswitchOverrideCdpIfPol>
+            </vmmVSwitchPolicyCont><vmmRsDefaultStpIfPol annotation='' status='created,modified' tnStpIfPolName=''></vmmRsDefaultStpIfPol>
+            <vmmUplinkPCont annotation='' id='0' name='' nameAlias='' numOfUplinks='8' status='created,modified'></vmmUplinkPCont>
+                <vmmRsDefaultL2InstPol annotation='' status='created,modified' tnL2InstPolName=''></vmmRsDefaultL2InstPol>
+                <vmmUsrAccP annotation='' descr='' name='vCenter-Creds' nameAlias='' ownerKey='' ownerTag='' status='created,modified' usr='administrator@vsphere.local'></vmmUsrAccP>
+    </vmmDomP>
+</vmmProvP>
