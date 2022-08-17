@@ -1,0 +1,30 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "infraAttEntityP": {
+                "attributes": {
+                    "annotation": "",
+                    "descr": "Attachable access entity profile.",
+                    "dn": "uni/infra/attentp-AEP",
+                    "name": "AEP",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "userdom": ":all:common:"
+                },
+                "children": [
+                    {
+                        "infraRsDomP": {
+                            "attributes": {
+                                "annotation": "",
+                                "tDn": "uni/vmmp-VMware/dom-VMM",
+                                "userdom": ":all:common:"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

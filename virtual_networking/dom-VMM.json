@@ -1,0 +1,199 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "vmmDomP": {
+                "attributes": {
+                    "accessMode": "read-write",
+                    "annotation": "",
+                    "arpLearning": "",
+                    "aveTimeOut": "30",
+                    "configInfraPg": "no",
+                    "ctrlKnob": "epDpVerify",
+                    "delimiter": "",
+                    "dn": "uni/vmmp-VMware/dom-VMM",
+                    "enableAVE": "no",
+                    "enableTag": "no",
+                    "enableVmFolder": "no",
+                    "encapMode": "unknown",
+                    "enfPref": "hw",
+                    "epInventoryType": "on-link",
+                    "epRetTime": "0",
+                    "hvAvailMonitor": "no",
+                    "mcastAddr": "0.0.0.0",
+                    "mode": "default",
+                    "name": "VMM",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "prefEncapMode": "unspecified",
+                    "userdom": ":all:common:"
+                },
+                "children": [
+                    {
+                        "infraRsVlanNs": {
+                            "attributes": {
+                                "annotation": "",
+                                "tDn": "uni/infra/vlanns-[VLAN_Pool]-dynamic",
+                                "userdom": ":all:common:"
+                            }
+                        }
+                    },
+                    {
+                        "vmmRsDefaultLldpIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnLldpIfPolName": "LLDP_Enabled",
+                                "userdom": "all"
+                            }
+                        }
+                    },
+                    {
+                        "vmmRsDefaultCdpIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnCdpIfPolName": "CDP_Enabled",
+                                "userdom": "all"
+                            }
+                        }
+                    },
+                    {
+                        "vmmCtrlrP": {
+                            "attributes": {
+                                "annotation": "",
+                                "dvsVersion": "unmanaged",
+                                "hostOrIp": "192.168.1.1",
+                                "inventoryTrigSt": "untriggered",
+                                "mode": "default",
+                                "msftConfigErrMsg": "",
+                                "msftConfigIssues": "",
+                                "n1kvStatsMode": "enabled",
+                                "name": "vCenter",
+                                "nameAlias": "",
+                                "port": "0",
+                                "rootContName": "DC",
+                                "scope": "vm",
+                                "seqNum": "0",
+                                "statsMode": "disabled",
+                                "userdom": ":all:common:",
+                                "vxlanDeplPref": "vxlan"
+                            },
+                            "children": [
+                                {
+                                    "vmmRsAcc": {
+                                        "attributes": {
+                                            "annotation": "",
+                                            "tDn": "uni/vmmp-VMware/dom-VMM/usracc-vCenter-Creds",
+                                            "userdom": ":all:common:"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "vmmRsDefaultFwPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnNwsFwPolName": "",
+                                "userdom": "all"
+                            }
+                        }
+                    },
+                    {
+                        "vmmRsDefaultLacpLagPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnLacpLagPolName": "",
+                                "userdom": "all"
+                            }
+                        }
+                    },
+                    {
+                        "vmmVSwitchPolicyCont": {
+                            "attributes": {
+                                "annotation": "",
+                                "descr": "",
+                                "nameAlias": "",
+                                "userdom": ":all:common:"
+                            },
+                            "children": [
+                                {
+                                    "vmmRsVswitchOverrideLldpIfPol": {
+                                        "attributes": {
+                                            "annotation": "",
+                                            "tDn": "uni/infra/lldpIfP-LLDP_Enabled",
+                                            "userdom": ":all:common:"
+                                        }
+                                    }
+                                },
+                                {
+                                    "vmmRsVswitchOverrideLacpPol": {
+                                        "attributes": {
+                                            "annotation": "",
+                                            "tDn": "uni/infra/lacplagp-system-mac-pinning",
+                                            "userdom": ":all:common:"
+                                        }
+                                    }
+                                },
+                                {
+                                    "vmmRsVswitchOverrideCdpIfPol": {
+                                        "attributes": {
+                                            "annotation": "",
+                                            "tDn": "uni/infra/cdpIfP-CDP_Enabled",
+                                            "userdom": ":all:common:"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "vmmRsDefaultStpIfPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnStpIfPolName": "",
+                                "userdom": "all"
+                            }
+                        }
+                    },
+                    {
+                        "vmmUplinkPCont": {
+                            "attributes": {
+                                "annotation": "",
+                                "id": "0",
+                                "name": "",
+                                "nameAlias": "",
+                                "numOfUplinks": "8",
+                                "userdom": ":all:common:"
+                            }
+                        }
+                    },
+                    {
+                        "vmmRsDefaultL2InstPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnL2InstPolName": "",
+                                "userdom": "all"
+                            }
+                        }
+                    },
+                    {
+                        "vmmUsrAccP": {
+                            "attributes": {
+                                "annotation": "",
+                                "descr": "",
+                                "name": "vCenter-Creds",
+                                "nameAlias": "",
+                                "ownerKey": "",
+                                "ownerTag": "",
+                                "userdom": ":all:common:",
+                                "usr": "administrator@vsphere.local"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
