@@ -1,0 +1,95 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "fvAEPg": {
+                "attributes": {
+                    "annotation": "",
+                    "descr": "",
+                    "dn": "uni/tn-Tenant/ap-AP/epg-VM_EPG",
+                    "exceptionTag": "",
+                    "floodOnEncap": "disabled",
+                    "fwdCtrl": "",
+                    "hasMcastSource": "no",
+                    "isAttrBasedEPg": "no",
+                    "matchT": "AtleastOne",
+                    "name": "VM_EPG",
+                    "nameAlias": "",
+                    "pcEnfPref": "unenforced",
+                    "prefGrMemb": "exclude",
+                    "prio": "unspecified",
+                    "shutdown": "no",
+                    "userdom": ":all:common:"
+                },
+                "children": [
+                    {
+                        "fvRsDomAtt": {
+                            "attributes": {
+                                "annotation": "",
+                                "bindingType": "staticBinding",
+                                "classPref": "encap",
+                                "customEpgName": "",
+                                "delimiter": "",
+                                "encap": "vlan-2",
+                                "encapMode": "auto",
+                                "epgCos": "Cos0",
+                                "epgCosPref": "disabled",
+                                "instrImedcy": "immediate",
+                                "lagPolicyName": "",
+                                "netflowDir": "both",
+                                "netflowPref": "disabled",
+                                "numPorts": "8",
+                                "portAllocation": "fixed",
+                                "primaryEncap": "unknown",
+                                "primaryEncapInner": "unknown",
+                                "resImedcy": "pre-provision",
+                                "secondaryEncapInner": "unknown",
+                                "switchingMode": "native",
+                                "tDn": "uni/vmmp-VMware/dom-VMM",
+                                "untagged": "no",
+                                "userdom": ":all:common:",
+                                "vnetOnly": "no"
+                            },
+                            "children": [
+                                {
+                                    "vmmSecP": {
+                                        "attributes": {
+                                            "allowPromiscuous": "reject",
+                                            "annotation": "",
+                                            "descr": "",
+                                            "forgedTransmits": "reject",
+                                            "macChanges": "reject",
+                                            "name": "",
+                                            "nameAlias": "",
+                                            "ownerKey": "",
+                                            "ownerTag": "",
+                                            "userdom": ":all:common:"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "fvRsCustQosPol": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnQosCustomPolName": "",
+                                "userdom": "all"
+                            }
+                        }
+                    },
+                    {
+                        "fvRsBd": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnFvBDName": "BD",
+                                "userdom": "all"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
