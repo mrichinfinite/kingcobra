@@ -194,7 +194,7 @@ A source relation to the user account profile.
 # Annotation: An annotation for enabling clients to add arbitrary key:value pairs of metadata to an object.
 vmmRsAcc_annotation = ''
 # tDn: The target name of the account profile policy for VMM controller.
-vmmRsAcc_tDn = 'uni/vmmp-VMware/dom-VMM/usracc-vCenter-Creds'
+vmmRsAcc_tDn = 'uni/vmmp-VMware/dom-VMM/usracc-vCenter_Creds'
 # Configure policy:
 vmmRsAcc = cobra.model.vmm.RsAcc(vmmCtrlrP, annotation=vmmRsAcc_annotation, tDn=vmmRsAcc_tDn)
 
@@ -321,7 +321,7 @@ vmmRsDefaultL2InstPol = cobra.model.vmm.RsDefaultL2InstPol(vmmDomP, annotation=v
 The user account profile that is used to access a VM provider account.
 '''
 # Name: The name of the VMM credential policy.
-vvmmUsrAccP_name = 'vCenter-Creds'
+vvmmUsrAccP_name = 'vCenter_Creds'
 # Annotation: An annotation for enabling clients to add arbitrary key:value pairs of metadata to an object.
 vmmUsrAccP_annotation = ''
 # Description: Specifies a description of the policy definition.
