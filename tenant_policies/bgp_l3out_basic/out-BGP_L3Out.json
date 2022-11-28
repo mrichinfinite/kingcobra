@@ -1,0 +1,280 @@
+{
+    "totalCount": "1",
+    "imdata": [
+        {
+            "l3extOut": {
+                "attributes": {
+                    "annotation": "",
+                    "descr": "BGP L3Out.",
+                    "dn": "uni/tn-Tenant/out-BGP_L3Out",
+                    "enforceRtctrl": "export",
+                    "name": "BGP_L3Out",
+                    "nameAlias": "",
+                    "ownerKey": "",
+                    "ownerTag": "",
+                    "targetDscp": "unspecified"
+                },
+                "children": [
+                    {
+                        "l3extRsL3DomAtt": {
+                            "attributes": {
+                                "annotation": "",
+                                "tDn": "uni/l3dom-L3DOM"
+                            }
+                        }
+                    },
+                    {
+                        "l3extRsEctx": {
+                            "attributes": {
+                                "annotation": "",
+                                "tnFvCtxName": "VRF"
+                            }
+                        }
+                    },
+                    {
+                        "l3extLNodeP": {
+                            "attributes": {
+                                "annotation": "",
+                                "configIssues": "",
+                                "descr": "BGP node profile.",
+                                "name": "BGP_nodeProfile",
+                                "nameAlias": "",
+                                "ownerKey": "",
+                                "ownerTag": "",
+                                "tag": "yellow-green",
+                                "targetDscp": "unspecified"
+                            },
+                            "children": [
+                                {
+                                    "l3extRsNodeL3OutAtt": {
+                                        "attributes": {
+                                            "annotation": "",
+                                            "configIssues": "",
+                                            "rtrId": "1.1.1.1",
+                                            "rtrIdLoopBack": "yes",
+                                            "tDn": "topology/pod-1/node-101"
+                                        },
+                                        "children": [
+                                            {
+                                                "l3extInfraNodeP": {
+                                                    "attributes": {
+                                                        "annotation": "",
+                                                        "descr": "",
+                                                        "fabricExtCtrlPeering": "no",
+                                                        "fabricExtIntersiteCtrlPeering": "no",
+                                                        "name": "",
+                                                        "nameAlias": "",
+                                                        "spineRole": ""
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "l3extLIfP": {
+                                        "attributes": {
+                                            "annotation": "",
+                                            "descr": "BGP logical interface profile.",
+                                            "name": "BGP_interfaceProfile",
+                                            "nameAlias": "",
+                                            "ownerKey": "",
+                                            "ownerTag": "",
+                                            "prio": "unspecified",
+                                            "tag": "yellow-green"
+                                        },
+                                        "children": [
+                                            {
+                                                "l3extRsPathL3OutAtt": {
+                                                    "attributes": {
+                                                        "addr": "1.1.1.1/24",
+                                                        "annotation": "",
+                                                        "autostate": "disabled",
+                                                        "descr": "",
+                                                        "encap": "vlan-111",
+                                                        "encapScope": "local",
+                                                        "ifInstT": "ext-svi",
+                                                        "ipv6Dad": "enabled",
+                                                        "llAddr": "::",
+                                                        "mac": "00:22:BD:F8:19:FF",
+                                                        "mode": "regular",
+                                                        "mtu": "inherit",
+                                                        "tDn": "topology/pod-1/paths-102/pathep-[eth1/1]",
+                                                        "targetDscp": "unspecified"
+                                                    },
+                                                    "children": [
+                                                        {
+                                                            "bgpPeerP": {
+                                                                "attributes": {
+                                                                    "addr": "1.1.1.2/24",
+                                                                    "addrTCtrl": "af-ucast",
+                                                                    "adminSt": "enabled",
+                                                                    "allowedSelfAsCnt": "3",
+                                                                    "annotation": "",
+                                                                    "ctrl": "",
+                                                                    "descr": "",
+                                                                    "name": "",
+                                                                    "nameAlias": "",
+                                                                    "peerCtrl": "",
+                                                                    "privateASctrl": "",
+                                                                    "ttl": "2",
+                                                                    "weight": "0"
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "bgpRsPeerPfxPol": {
+                                                                            "attributes": {
+                                                                                "annotation": "",
+                                                                                "tnBgpPeerPfxPolName": ""
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "bgpLocalAsnP": {
+                                                                            "attributes": {
+                                                                                "annotation": "",
+                                                                                "asnPropagate": "none",
+                                                                                "descr": "",
+                                                                                "localAsn": "65010",
+                                                                                "name": "",
+                                                                                "nameAlias": ""
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "bgpAsP": {
+                                                                            "attributes": {
+                                                                                "annotation": "",
+                                                                                "asn": "65001",
+                                                                                "descr": "",
+                                                                                "name": "",
+                                                                                "nameAlias": ""
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "l3extRsNdIfPol": {
+                                                    "attributes": {
+                                                        "annotation": "",
+                                                        "tnNdIfPolName": ""
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "l3extRsLIfPCustQosPol": {
+                                                    "attributes": {
+                                                        "annotation": "",
+                                                        "tnQosCustomPolName": ""
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "l3extRsIngressQosDppPol": {
+                                                    "attributes": {
+                                                        "annotation": "",
+                                                        "tnQosDppPolName": ""
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "l3extRsEgressQosDppPol": {
+                                                    "attributes": {
+                                                        "annotation": "",
+                                                        "tnQosDppPolName": ""
+                                                    }
+                                                }
+                                            },
+                                            {
+                                                "l3extRsArpIfPol": {
+                                                    "attributes": {
+                                                        "annotation": "",
+                                                        "tnArpIfPolName": ""
+                                                    }
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "l3extInstP": {
+                            "attributes": {
+                                "annotation": "",
+                                "descr": "",
+                                "exceptionTag": "",
+                                "floodOnEncap": "disabled",
+                                "matchT": "AtleastOne",
+                                "name": "BGP_EXT_EPG",
+                                "nameAlias": "",
+                                "prefGrMemb": "exclude",
+                                "prio": "unspecified",
+                                "targetDscp": "unspecified"
+                            },
+                            "children": [
+                                {
+                                    "fvRsProv": {
+                                        "attributes": {
+                                            "annotation": "",
+                                            "intent": "install",
+                                            "matchT": "AtleastOne",
+                                            "prio": "unspecified",
+                                            "tnVzBrCPName": "PERMIT_ICMP"
+                                        }
+                                    }
+                                },
+                                {
+                                    "l3extSubnet": {
+                                        "attributes": {
+                                            "aggregate": "",
+                                            "annotation": "",
+                                            "descr": "",
+                                            "ip": "0.0.0.0/0",
+                                            "name": "",
+                                            "nameAlias": "",
+                                            "scope": "import-security"
+                                        }
+                                    }
+                                },
+                                {
+                                    "fvRsCustQosPol": {
+                                        "attributes": {
+                                            "annotation": "",
+                                            "tnQosCustomPolName": ""
+                                        }
+                                    }
+                                },
+                                {
+                                    "fvRsCons": {
+                                        "attributes": {
+                                            "annotation": "",
+                                            "intent": "install",
+                                            "prio": "unspecified",
+                                            "tnVzBrCPName": "PERMIT_ICMP"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "bgpExtP": {
+                            "attributes": {
+                                "annotation": "",
+                                "descr": "",
+                                "nameAlias": ""
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
