@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fvTenant name='Tenant'>
+    <l3extOut annotation='' descr='BGP L3Out.' enforceRtctrl='export' name='BGP_L3Out' nameAlias='' ownerKey='' ownerTag='' status='created,modified' targetDscp='unspecified'>
+        <l3extRsL3DomAtt annotation='' status='created,modified' tDn='uni/l3dom-L3DOM'></l3extRsL3DomAtt>
+        <l3extRsEctx annotation='' status='created,modified' tnFvCtxName='VRF'></l3extRsEctx>
+        <l3extLNodeP annotation='' descr='BGP node profile.' name='BGP_nodeProfile' nameAlias='' ownerKey='' ownerTag='' status='created,modified' tag='yellow-green' targetDscp='unspecified'>
+            <l3extRsNodeL3OutAtt annotation='' rtrId='1.1.1.1' rtrIdLoopBack='yes' status='created,modified' tDn='topology/pod-1/node-101'>
+                <l3extInfraNodeP annotation='' descr='' fabricExtCtrlPeering='no' fabricExtIntersiteCtrlPeering='no' name='' nameAlias='' spineRole='' status='created,modified'></l3extInfraNodeP>
+            </l3extRsNodeL3OutAtt>
+            <l3extLIfP annotation='' descr='BGP logical interface profile.' name='BGP_interfaceProfile' nameAlias='' ownerKey='' ownerTag='' prio='unspecified' status='created,modified' tag='yellow-green'>
+                <l3extRsPathL3OutAtt addr='1.1.1.1/24' annotation='' autostate='disabled' descr='' encap='vlan-111' encapScope='local' ifInstT='ext-svi' ipv6Dad='enabled' llAddr='::' mac='00:22:BD:F8:19:FF' mode='regular' mtu='inherit' status='created,modified' tDn='topology/pod-1/paths-102/pathep-[eth1/1]' targetDscp='unspecified'>
+                    <bgpPeerP addr='1.1.1.2/24' addrTCtrl='af-ucast' adminSt='enabled' allowedSelfAsCnt='3' annotation='' ctrl='' descr='' name='' nameAlias='' password='' peerCtrl='' privateASctrl='' status='created,modified' ttl='2' weight='0'>
+                        <bgpRsPeerPfxPol annotation='' status='created,modified' tnBgpPeerPfxPolName=''></bgpRsPeerPfxPol>
+                        <bgpLocalAsnP annotation='' asnPropagate='none' descr='' localAsn='65010' name='' nameAlias='' status='created,modified'></bgpLocalAsnP>
+                        <bgpAsP annotation='' asn='65001' descr='' name='' nameAlias='' status='created,modified'></bgpAsP>
+                    </bgpPeerP>
+                </l3extRsPathL3OutAtt>
+                <l3extRsNdIfPol annotation='' status='created,modified' tnNdIfPolName=''></l3extRsNdIfPol>
+                <l3extRsLIfPCustQosPol annotation='' status='created,modified' tnQosCustomPolName=''></l3extRsLIfPCustQosPol>
+                <l3extRsIngressQosDppPol annotation='' status='created,modified' tnQosDppPolName=''></l3extRsIngressQosDppPol>
+                <l3extRsEgressQosDppPol annotation='' status='created,modified' tnQosDppPolName=''></l3extRsEgressQosDppPol>
+                <l3extRsArpIfPol annotation='' status='created,modified' tnArpIfPolName=''></l3extRsArpIfPol>
+            </l3extLIfP>
+        </l3extLNodeP>
+        <l3extInstP annotation='' descr='' exceptionTag='' floodOnEncap='disabled' matchT='AtleastOne' name='BGP_EXT_EPG' nameAlias='' prefGrMemb='exclude' prio='unspecified' status='created,modified' targetDscp='unspecified'>
+            <fvRsProv annotation='' intent='install' matchT='AtleastOne' prio='unspecified' status='created,modified' tnVzBrCPName='PERMIT_ICMP'></fvRsProv>
+            <l3extSubnet aggregate='' annotation='' descr='' ip='0.0.0.0/0' name='' nameAlias='' status='created,modified'></l3extSubnet>
+            <fvRsCustQosPol annotation='' status='created,modified' tnQosCustomPolName=''></fvRsCustQosPol>
+            <fvRsCons annotation='' intent='install' prio='unspecified' status='created,modified' tnVzBrCPName='PERMIT_ICMP'></fvRsCons>
+        </l3extInstP>
+        <bgpExtP annotation='' descr='' nameAlias='' status='created,modified'></bgpExtP>
+    </l3extOut>
+</fvTenant>
